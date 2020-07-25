@@ -1,7 +1,7 @@
 [build]
   publish = "_site"
-  command = "eleventy"
-
+  command = "npm run build-production"
+  
 [[plugins]]
 package = "./plugins/keep-data-cache"
 
@@ -12,6 +12,6 @@ package = "./plugins/keep-data-cache"
 
 [[redirects]]
   from = "https://waleed-pagespeed.netlify.app"
-  to = "https://www.pagespeed.waleed.de"
+  to = "https://pagespeed.waleed.de"
   status = 301
   force = true
