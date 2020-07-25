@@ -1,0 +1,12 @@
+.log
+_site
+_data/results/
+_data/results-last-runs.json
+package-lock.json
+.env%
+node_modules
+dist
+functions
+drafts
+.idea
+.DS_Store
